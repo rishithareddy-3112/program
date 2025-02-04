@@ -14,5 +14,4 @@ function* cumulativeSum(arr) {
     console.log(result.value); 
     result = sumGen.next(); 
   }
-  console.log("Final sum:", result.value);
-  
+console.log("Final sum:", result.value);
